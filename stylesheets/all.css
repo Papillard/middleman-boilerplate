@@ -8902,6 +8902,28 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+@keyframes appearIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes appearIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes appearIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* line 26, /Users/boris/code/papillard/06-stylus/source/stylesheets/layout/_animation.css.scss */
+.appearIn {
+  opacity: 0;
+  animation: appearIn 3s 1s ease forwards;
+  -webkit-animation: appearIn 3s 1s ease forwards;
+  -moz-animation: appearIn 3s 1s ease forwards; }
+
 /* line 1, /Users/boris/code/papillard/06-stylus/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background: #222222;
