@@ -9095,6 +9095,17 @@ button.close {
     font-size: 25px;
     font-weight: 100; }
 
+/* line 18, /Users/boris/code/papillard/06-stylus/source/stylesheets/pages/_home.css.scss */
+.testimonial {
+  background: white;
+  padding: 40px;
+  margin: 10px;
+  box-shadow: 1px 1px 3px #d5d2d2; }
+  /* line 23, /Users/boris/code/papillard/06-stylus/source/stylesheets/pages/_home.css.scss */
+  .testimonial img {
+    width: 40%;
+    margin: 0 auto; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
